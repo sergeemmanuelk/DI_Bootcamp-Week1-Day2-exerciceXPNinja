@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.8);
+}
+
+.login-card .left {
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 400px;
+    padding: 20px 15px;
+}
+
+.login-card .right {
+    background-color: #4A235A;
+    width: 350px;
+    height: 400px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.login-card .left, .login-card .right {
+    float: left;
+}
+
+.right-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.right-content i, .right-content h1, .right-content p, .right-content a {
+    color: #fff;
+}
+
+.right-content .fa-user-plus {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.right-content h1 {
+    margin-bottom: 10px;
+}
+
+.right-content p {
+    margin-bottom: 20px;
+}
+
+.register {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.register .fa-circle-arrow-right {
+    margin-left: 3px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4A235A;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.left .forgpsw {
+    float: right;
+}
+
+.left h2 {
+    text-align: center;
+}
+
+.left .connect, .left .copyright {
+    margin-top: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+.social-icon {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icon i {
+    color: #ccc;
+    font-size: 30px;
+}
+
+.social-icon .fa-facebook-f, .social-icon .fa-twitter, .social-icon .fa-github {
+    margin-right: 10px;
+}
+
+.connect::before {
+    content: '';
+    background: #ccc;
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.connect::after {
+    content: '';
+    background: #ccc;
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: relative;
+    bottom: 10px;
+    left: 220px;
+}
